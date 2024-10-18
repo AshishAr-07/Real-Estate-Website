@@ -41,8 +41,8 @@ export default function Propety() {
     return (
         <Container>
             <div className="text-center text-gray-900  py-10 ">
-                <p className=' text-5xl' ><b>Featured Properties</b></p>
-                <p className='py-5'>Buy,sell and rent properties without any agent or commissions.</p>
+                <h1 className=' text-5xl' ><b>Featured Properties</b></h1>
+               
             </div>
 
             <div className='grid grid-cols-1 md:grid-cols-3 gap-6 pt-5'>
