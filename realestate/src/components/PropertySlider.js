@@ -38,9 +38,31 @@ const property = [{
     room:"4",
     bath:"2",
     area:"1200"
+},
+{
+    id:4,
+    src: "/2.jpg",
+    add: "710 BOYD DR, Unit #1102, Baton Rouge, LA 70808, India",
+    price: "₹14000",
+    cat: "Featured",
+    for: "For Rent",
+    room:"4",
+    bath:"2",
+    area:"1200" 
+}, 
+{
+    id:5,
+    src: "/2.jpg",
+    add: "710 BOYD DR, Unit #1102, Baton Rouge, LA 70808, India",
+    price: "₹14000",
+    cat: "Featured",
+    for: "For Rent",
+    room:"4",
+    bath:"2",
+    area:"1200"
 }]
 
-export default function Propety() {
+export default function PropetySlider() {
     return (
         <Container>
             <div className="text-center text-gray-900  py-10 ">

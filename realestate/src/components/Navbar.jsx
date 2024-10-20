@@ -16,6 +16,7 @@ export default function Navbar() {
             <nav className='flex justify-between md:px-0 px-5 max-w-screen-lg mx-auto items-center py-2'>
 
                 <Image src='/logo.png'
+                alt='logo'
                     width={64}
                     height={64}
                     className="w-16 h-16 object-contain" />
