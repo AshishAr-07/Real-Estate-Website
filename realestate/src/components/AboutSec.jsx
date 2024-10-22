@@ -2,7 +2,7 @@ import React from 'react'
 import Container from './Container'
 import Image from 'next/image'
 
-export default function About() {
+export default function AboutSec() {
     return (
         <Container>
             <div className="py-12 flex  bg-white">

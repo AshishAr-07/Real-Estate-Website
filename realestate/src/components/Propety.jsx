@@ -38,15 +38,90 @@ const property = [{
     room:"4",
     bath:"2",
     area:"1200"
-}]
+},
+{
+    id:4,
+    src: "/2.jpg",
+    add: "710 BOYD DR, Unit #1102, Baton Rouge, LA 70808, India",
+    price: "₹14000",
+    cat: "Featured",
+    for: "For Rent",
+    room:"4",
+    bath:"2",
+    area:"1200"
+},
+{
+    id:5,
+    src: "/2.jpg",
+    add: "710 BOYD DR, Unit #1102, Baton Rouge, LA 70808, India",
+    price: "₹14000",
+    cat: "Featured",
+    for: "For Rent",
+    room:"4",
+    bath:"2",
+    area:"1200"
+},
+{
+    id:6,
+    src: "/2.jpg",
+    add: "710 BOYD DR, Unit #1102, Baton Rouge, LA 70808, India",
+    price: "₹14000",
+    cat: "Featured",
+    for: "For Rent",
+    room:"4",
+    bath:"2",
+    area:"1200"
+},
+{
+    id:7,
+    src: "/2.jpg",
+    add: "710 BOYD DR, Unit #1102, Baton Rouge, LA 70808, India",
+    price: "₹14000",
+    cat: "Featured",
+    for: "For Rent",
+    room:"4",
+    bath:"2",
+    area:"1200"
+},
+{
+    id:8,
+    src: "/2.jpg",
+    add: "710 BOYD DR, Unit #1102, Baton Rouge, LA 70808, India",
+    price: "₹14000",
+    cat: "Featured",
+    for: "For Rent",
+    room:"4",
+    bath:"2",
+    area:"1200"
+},
+{
+    id:9,
+    src: "/2.jpg",
+    add: "710 BOYD DR, Unit #1102, Baton Rouge, LA 70808, India",
+    price: "₹14000",
+    cat: "Featured",
+    for: "For Rent",
+    room:"4",
+    bath:"2",
+    area:"1200"
+},
+{
+    id:10,
+    src: "/2.jpg",
+    add: "710 BOYD DR, Unit #1102, Baton Rouge, LA 70808, India",
+    price: "₹14000",
+    cat: "Featured",
+    for: "For Rent",
+    room:"4",
+    bath:"2",
+    area:"1200"
+},
+]
 
 export default function Propety() {
     return (
         <Container>
-            <div className="text-center text-gray-900  py-10 ">
-                <h1 className=' text-5xl' ><b>Featured Properties</b></h1>
-               
-            </div>
+            
 
             <div className='grid grid-cols-1 md:grid-cols-3 gap-6 pt-5'>
 

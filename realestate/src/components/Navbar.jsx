@@ -3,6 +3,7 @@ import Image from 'next/image';
 import React, { useState, useCallback } from 'react'
 import { GiHamburgerMenu } from "react-icons/gi";
 import { TbXboxX } from "react-icons/tb";
+import Link from 'next/link';
 
 export default function Navbar() {
     const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -25,9 +26,9 @@ export default function Navbar() {
                     <button onClick={handleClick}>{isMenuOpen ? <TbXboxX size={22} /> : <GiHamburgerMenu size={22} />}</button>
                 </div>
                 <ul className='hidden md:flex space-x-5 text-md justify-center items-center'>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Property</li>
+                    <Link href="/" ><li>Home</li></Link>
+                   <Link href="/about" ><li>About</li></Link>
+                     <Link href="/property" ><li>Property</li></Link>
                     <li>Contact</li>
                 </ul>
             </nav>
