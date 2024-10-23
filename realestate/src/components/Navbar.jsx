@@ -17,7 +17,7 @@ export default function Navbar() {
             <nav className='flex justify-between md:px-0 px-5 max-w-screen-lg mx-auto items-center py-2'>
 
                 <Image src='/logo.png'
-                alt='logo'
+                    alt='logo'
                     width={64}
                     height={64}
                     className="w-16 h-16 object-contain" />
@@ -27,17 +27,17 @@ export default function Navbar() {
                 </div>
                 <ul className='hidden md:flex space-x-5 text-md justify-center items-center'>
                     <Link href="/" ><li>Home</li></Link>
-                   <Link href="/about" ><li>About</li></Link>
-                     <Link href="/property" ><li>Property</li></Link>
-                    <li>Contact</li>
+                    <Link href="/about" ><li>About</li></Link>
+                    <Link href="/property" ><li>Property</li></Link>
+                    <Link href='/contact'><li>Contact</li></Link>
                 </ul>
             </nav>
             {isMenuOpen && (
                 <ul className='md:hidden absolute w-full bg-white z-10 transition-all duration-300 ease-in-out py-3 mt-0 md:px-0 px-5 space-y-2 shadow-md'>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Property</li>
-                    <li>Contact</li>
+                    <Link href="/" ><li>Home</li></Link>
+                    <Link href="/about" ><li>About</li></Link>
+                    <Link href="/property" ><li>Property</li></Link>
+                    <Link href='/contact'><li>Contact</li></Link>
                 </ul>
             )}
         </div>

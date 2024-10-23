@@ -28,10 +28,10 @@ const service = [
 
 export default function BuyRent() {
     return (
-        <div className='relative w-full md:bg-[url("/bgimg.webp")] md:bg-fixed bg-no-repeat bg-cover my-20  py-16'>
-            <div className='md:absolute md:inset-0 md:bg-black opacity-10'></div>
+        <div className='relative w-full md:bg-[url("/bgimg.jpg")] md:bg-fixed bg-no-repeat bg-cover my-20  py-16'>
+            <div className='md:absolute md:inset-0 md:bg-white opacity-10'></div>
             <Container>
-                <h1 className='text-5xl  text-center text-gray-900  pb-16'><b>What Are You Looking For ?</b></h1>
+                <h1 className='text-5xl z-10 text-center text-gray-900  pb-16'><strong>What Are You Looking For ?</strong></h1>
                 <div className='grid md:grid-cols-3 grid-cols-1 gap-8'>
                     {
                         service.map((items, index) => (

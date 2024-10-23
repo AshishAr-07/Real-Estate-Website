@@ -8,7 +8,7 @@ export default function Work() {
      {/* It work section */}
      <div className="pt-10 ">
       <div className="text-center text-gray-900  text-5xl ">
-        <p ><b>How it Works</b></p>
+        <p ><b>How We Work</b></p>
       </div>
      
     </div>

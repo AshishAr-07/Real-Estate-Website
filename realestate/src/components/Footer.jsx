@@ -4,9 +4,9 @@ import Image from 'next/image'
 
 export default function Footer() {
     return (
-       <div className='w-full bg-gray-100'>
+       <div className='w-full bg-[#111827]'>
  <Container>
-            <div className='grid grid-cols-1 gap-4 md:grid-cols-4 py-6'>
+            <div className='grid grid-cols-1 text-gray-50 gap-4 md:grid-cols-4 py-6'>
                 <div className='md:col-span-2 flex flex-col'>
                     <Image src='/logo.png'
                         alt='logo'
@@ -32,7 +32,7 @@ export default function Footer() {
             </div>
 
         </Container>
-        <div className='max-w-screen-xl mx-auto text-center py-2 border-t border-t-gray-300 '>© Real Estate 2024 | All Rights Reserved.</div>
+        <div className='max-w-screen-xl mx-auto text-center text-gray-50 py-2 border-t border-t-gray-300 '>© Real Estate 2024 | All Rights Reserved.</div>
        </div>
     )
 }

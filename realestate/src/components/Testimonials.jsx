@@ -2,6 +2,7 @@ import React from 'react'
 import Container from './Container'
 import { CgProfile } from "react-icons/cg";
 import { RiDoubleQuotesL } from "react-icons/ri";
+import Spacer from './Spacer';
 
 const test = [
     {
@@ -19,16 +20,16 @@ const test = [
     }
 ]
 
-export default function Testimonials() {
+export default function Testimonials({className}) {
     return (
-        <div className='w-full bg-gray-100 py-12'>
-            <Container>
+        <div className={`'w-full bg-gray-100 py-12' ${className}`}>
+            <Container className='py-20'>
             <h1 className='text-5xl text-center text-gray-900  py-10'><b>What Client Says ?</b></h1>
             <div className='grid md:grid-cols-3 grid-cols-1 gap-6'>
                 {test.map((items, index) => (
                     <div key={index} className='relative bg-white shadow-md pt-12'>
                         <div className=' flex flex-col gap-2   px-5 py-5 items-center'>
-                            <p className='text-sm'>{items.para}</p>
+                            <p className=''>{items.para}</p>
                             <span><CgProfile size={50} /></span>
                             <p>{items.name}</p>
                             <span className='absolute left-5 top-3'><RiDoubleQuotesL size={50} /></span>
@@ -39,6 +40,7 @@ export default function Testimonials() {
 
                 ))}
             </div>
+            
 
         </Container>
         </div>

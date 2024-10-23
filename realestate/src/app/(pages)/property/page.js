@@ -1,5 +1,6 @@
 import Breadcrumb from '@/components/Breadcrumb'
 import Propety from '@/components/Propety'
+import Spacer from '@/components/Spacer'
 import React from 'react'
 
 export default function page() {
@@ -7,6 +8,7 @@ export default function page() {
     <>
     <Breadcrumb page= "Property" />
     <Propety/>
+    <Spacer/>
     </>
   )
 }
